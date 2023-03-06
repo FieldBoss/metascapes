@@ -39,11 +39,11 @@ How MetaScapes Works
 The _**MetaScapes**_ application is designed to be an easy to use map based data collection tool that incorporates the concept of decentralized spatial data collection and storage. Built with interchangeable React Components, it can be easily tailored for most field mapping needs.
 
 Here we present a _**MetaScapes**_ use case showing how geo-located NFTs created on the XRP Ledger can be used in a field mapping application that performs and manages routine inspections of stormwater abatement structures (BMPs). Each structure on the map is represented as a point, line, or polygon feature. The geometry of these features is stored within an NFT on the XRP Ledger. New structures can be added and existing structures can be inspected. A record of all inspections (current and previous) for each feature is stored in a decentralized file system (Ceramic) and retrievable through the application's data form.
-
+ 
 Navigating the UI
 -----------------
 ![image info](./img/mouse-wheel.jpg)
-This application uses the Testnet on the XRP Ledger. A default account has been created for BMP Inspector #1 and the account details are embedded into the code. As a result, no login is required and all XRP Ledger transactions will use that account. In a production environment, each user (inspector/organization) will have a separate account on XRPL Mainnet and login will be required.
+To interactively display the 3d metaverse viewer refer to the above diagram.
 
 The application UI is divided into 3 interacting components including the navigation bar, data form, and interactive map. Following is a description of how to use the tools within each component:
 
