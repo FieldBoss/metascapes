@@ -1,0 +1,139 @@
+#map { 
+    position: absolute; 
+    top: 60px; 
+    height: 640px; 
+    width: 900px; 
+    left: 40px; 
+    border: 3px solid black;
+    background-color: black;
+}
+.form-preview{
+    position:relative; 
+    color: black;  
+    padding: 8px 25px;
+    top: 60px; 
+    height: 290px; 
+    width: 260px; 
+    left: 939px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(165, 167, 153);
+    border: 3px solid black;
+}
+#network {
+    position: relative;
+    width: 195px;
+    height: 28px;
+    left: -17px;
+    bottom: -3px;
+    z-index: 4;
+    font-weight:600;
+    color: blue
+}
+#location {
+    position: relative;
+    width: 230px;
+    height: 25px;
+    right: 11px;
+    top: 3px;
+    z-index: 4;
+}
+#loader {
+    position: relative;
+    top: 16px;
+    right: -983px;
+    height: 28px;
+    width: 170px;
+    border-radius: 8px;
+    padding: 1px;
+    z-index: 400;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:600;
+    border:0.14em solid #4e7396;
+    background-color:rgb(154, 169, 173);
+    text-align:center;
+}
+#childcount {
+    position: relative;
+    top: 6px;
+    height: 25px;
+    width: 230px;
+    right: 11px;
+    z-index: 4;
+}
+#height {
+    position: relative;
+    top: 8px;
+    height: 25px;
+    width: 230px;
+    right: 11px;
+    z-index: 4;
+}
+#size {
+    position: relative;
+    top: 8px;
+    height: 25px;
+    width: 230px;
+    right: 11px;
+    z-index: 4;
+}
+#explorer {
+    position: relative;
+    bottom: 27px;
+    height: 30px;
+    width: 30px;
+    right: -173px;
+    border-radius: 5px;
+    z-index: 4;
+    padding: 2px;
+}
+#menu {
+    background: #fff;
+    position: absolute;
+    z-index: 4;
+    top: 100px; 
+    left: 70px;
+    border-radius: 7px;
+    width: 130px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+}  
+#menu a {
+    font-size: 13px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+}    
+#menu a:last-child {
+    border: none;
+}   
+#menu a:hover {
+    background-color: #f8f8f8;
+    color: #404040;
+}    
+#menu a.active {
+    background-color: #3887be;
+    color: #ffffff;
+}
+     
+#menu a.active:hover {
+    background: #3074a4;
+}
+.mapboxgl-popup {
+    transform:none !important;
+     top: 65%;
+    left: 600px;
+    width: 600px;
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip{ 
+    display:none !important;
+}
+.mapboxgl-ctrl-logo {
+    display: none !important;
+}

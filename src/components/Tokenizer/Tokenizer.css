@@ -1,0 +1,67 @@
+
+.form-tokenize{
+    position:relative; 
+    color: black;  
+    padding: 8px 25px;
+    top: -127px; 
+    height: 188px; 
+    width: 260px; 
+    left: 939px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(165, 167, 153);
+    border: 3px solid black;
+}
+
+.form-tokenized {
+    position:relative; 
+    color: black;  
+    padding: 8px 25px;
+    top: 222px; 
+    height: 160px; 
+    width: 260px; 
+    left: 939px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(165, 167, 153);
+    border: 3px solid black;
+}
+
+#submit {
+    position: relative;
+    top: 13px;
+    right: 3px;
+    height: 28px;
+    width: 140px;
+    border-radius: 8px;
+    padding: 1px;
+    z-index: 400;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:600;
+    border:0.15em solid #4e7396;
+    background-color:rgb(154, 169, 173);
+    text-align:center;
+}
+
+#podname {
+    position: relative;
+    top: -3px;
+    height: 25px;
+    width: 230px;
+    right: 12px;
+    z-index: 4;
+    
+}
+
+#description {
+    position: relative;
+    top: 0px;
+    height: 25px;
+    width: 230px;
+    right: 12px;
+    z-index: 4;
+}
+
+
