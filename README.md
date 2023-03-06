@@ -30,7 +30,7 @@ Here we present a _**MetaScapes**_ use case showing how geo-located NFTs created
 Getting Started
 ---------------
 
-The _**MetaScapes**_ application has been deployed on AWS as a web service available to all. No installation or configuration is required. This web service application serves as a demo and is designed to be a 'sandbox' that can be used to collect 'real data' in the field.
+The _**MetaScapes**_ application has been deployed on AWS as a web service available to all. No installation or configuration is required. This web service application serves as a demo and is designed to be a 'sandbox' that can be used to demonstrate the functionality of MetaScapes.
 
 *   Supported Browsers:
     *   Chrome
