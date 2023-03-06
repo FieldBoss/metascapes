@@ -43,6 +43,7 @@ Here we present a _**MetaScapes**_ use case showing how geo-located NFTs created
 Navigating the UI
 -----------------
 ![image info](./img/mouse-wheel.jpg)
+
 To interactively display the 3d metaverse viewer refer to the above diagram.
 
 The application UI is divided into 3 interacting components including the navigation bar, data form, and interactive map. Following is a description of how to use the tools within each component:
