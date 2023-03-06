@@ -33,7 +33,7 @@ The _**MetaScapes**_ application has been deployed on AWS as a web service avail
     *   Not formatted for mobile phones
 
 
-A MetaScapes Use Case
+How MetaScapes Works
 --------------------
 
 The _**MetaScapes**_ application is designed to be an easy to use map based data collection tool that incorporates the concept of decentralized spatial data collection and storage. Built with interchangeable React Components, it can be easily tailored for most field mapping needs.
