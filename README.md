@@ -3,7 +3,7 @@ Table of Contents
 1.  [What Is MetaScapes](#what-is-metascapes)
 2.  [What Is A Composite NFT](#what-is-a-composite-nft)
 3.  [Getting Started](#getting-started)
-4.  [A MetaScapes Use Case](#a-metascapes-use-case)
+4.  [How MetaScapes Works](#how-metascapes-works)
 5.  [Navigating the UI](#navigating-the-ui)
 6.  [Built With](#built-with)
 7.  [Roadmap](#roadmap)
