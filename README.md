@@ -2,8 +2,8 @@
 Table of Contents
 1.  [What Is MetaScapes](#what-is-metascapes)
 2.  [What Is A Composite NFT](#what-is-a-composite-nft)
-3.  [A MetaScapes Use Case](#a-metascapes-use-case)
-4.  [Getting Started](#getting-started)
+3.  [Getting Started](#getting-started)
+4.  [A MetaScapes Use Case](#a-metascapes-use-case)
 5.  [Navigating the UI](#navigating-the-ui)
 6.  [Built With](#built-with)
 7.  [Roadmap](#roadmap)
@@ -20,13 +20,6 @@ GeoJSON is an open standard format (based on JSON format) designed for represent
 
 Geo-located XRPL NFTs adhere to the GeoJSON spatial data standard recognized by most GIS mapping applications which provides interoperability between FieldBoss and GIS.
 
-A MetaScapes Use Case
---------------------
-
-The _**MetaScapes**_ application is designed to be an easy to use map based data collection tool that incorporates the concept of decentralized spatial data collection and storage. Built with interchangeable React Components, it can be easily tailored for most field mapping needs.
-
-Here we present a _**MetaScapes**_ use case showing how geo-located NFTs created on the XRP Ledger can be used in a field mapping application that performs and manages routine inspections of stormwater abatement structures (BMPs). Each structure on the map is represented as a point, line, or polygon feature. The geometry of these features is stored within an NFT on the XRP Ledger. New structures can be added and existing structures can be inspected. A record of all inspections (current and previous) for each feature is stored in a decentralized file system (Ceramic) and retrievable through the application's data form.
-
 Getting Started
 ---------------
 
@@ -38,6 +31,14 @@ The _**MetaScapes**_ application has been deployed on AWS as a web service avail
     *   FireFox
     *   Edge
     *   Not formatted for mobile phones
+
+
+A MetaScapes Use Case
+--------------------
+
+The _**MetaScapes**_ application is designed to be an easy to use map based data collection tool that incorporates the concept of decentralized spatial data collection and storage. Built with interchangeable React Components, it can be easily tailored for most field mapping needs.
+
+Here we present a _**MetaScapes**_ use case showing how geo-located NFTs created on the XRP Ledger can be used in a field mapping application that performs and manages routine inspections of stormwater abatement structures (BMPs). Each structure on the map is represented as a point, line, or polygon feature. The geometry of these features is stored within an NFT on the XRP Ledger. New structures can be added and existing structures can be inspected. A record of all inspections (current and previous) for each feature is stored in a decentralized file system (Ceramic) and retrievable through the application's data form.
 
 Navigating the UI
 -----------------
