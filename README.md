@@ -1,3 +1,4 @@
+![image info](./img/metascapes.jpg)
 Table of Contents
 1.  [What Is MetaScapes](#what-is-metascapes)
 2.  [What Is A Composite NFT](#what-is-a-composite-nft)
@@ -10,7 +11,6 @@ Table of Contents
 
 What Is MetaScapes
 -----------------
-![image info](./img/metascapes.jpg)
 _**MetaScapes**_ is a mapping application that merges blockchain technology with popular open source GIS mapping tools through the use of geo-located XRPL NFTs. With FieldBoss, GIS applications are extended to include the real-time tokenization of 2d/3d unique geometries collected by field crews. By combining the analytical power of GIS (assets represented spatially) with the transparency, immutability, and security of blockchain technology we can show the spatial and temporal distribution of information which is securely stored on blockchain and distributed file systems.
 
 What Is A Composite NFT
