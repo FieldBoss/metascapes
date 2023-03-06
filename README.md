@@ -1,8 +1,3 @@
-Welcome to MetaScapes!
----------------------
-
-_**MetaScapes**_ is a prototype GIS application that incorporates Distributed Ledger Technology (Blockchain) into the process of collecting and storing spatial geometries (points, line, polygons). _**[Open MetaScapes Here](https://master.d163pkaqtfwgml.amplifyapp.com/)**_  Click a feature on the map to display a popup and click 'select' to view recent inspection data. Zoom to your current location by clicking the 'globe' button and start collecting and reviewing spatial data. See 'Navigating the UI' for specific instructions. (Note: the default theme is Stormwater Inspection) FieldBoss is adaptable and can be used to collect any type of data at any location.  
-
 Table of Contents
 1.  [What Is MetaScapes](#what-is-metascapes)
 2.  [What Is A Composite NFT](#what-is-a-composite-nft)
