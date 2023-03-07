@@ -70,12 +70,11 @@ Next Steps
 *   
 Built With
 ----------
-*   [React](https://reactjs.org/) – a JavaScript library for building user interfaces
-*   [Leaflet](https://leafletjs.com/) – a popular open source JavaScript library for building web mapping applications
-*   [React Leaflet](https://react-leaflet.js.org/) - React components for Leaflet maps
-*   [xrpl.js](https://xrpl.org/) - Javascript library for integrating an app with the XRP Ledger,
-*   XRP Ledger([https://testnet.xrpl.org](https://testnet.xrpl.org/) - Testnet Data)
-*   [Ceramic](https://ceramic.network/) - a decentralized data network for Web3 applications
+*   [React](https://reactjs.org/) – JavaScript library for building user interfaces
+*   [Mapbox GL JS](https://mapbox.com/) – JavaScript library for building 3d web maps
+*   [xrpl.js](https://xrpl.org/) - Javascript library for integrating dapps with the XRP Ledger,
+*   XRP Ledger([https://testnet.xrpl.org](https://testnet.xrpl.org/) - testnet)
+*   [Ceramic Network](https://ceramic.network/ :ceramic-clay testnet) - a decentralized data network for Web3 applications
 *   [Node.js](https://nodejs.org/en/) - a cross-platform JavaScript runtime environment
     
     ([back to top](#top))
