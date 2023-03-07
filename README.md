@@ -1,7 +1,7 @@
 ![image info](./img/metascapes.jpg)
 Table of Contents
 1.  [What Is MetaScapes](#what-is-metascapes)
-2.  [What Is A Composite NFT](#what-is-a-composite-nft)
+2.  [What Is a Composite NFT](#what-is-a-composite-nft)
 3.  [Getting Started](#getting-started)
 4.  [How MetaScapes Works](#how-metascapes-works)
 5.  [Navigating the UI](#navigating-the-ui)
@@ -13,10 +13,9 @@ What Is MetaScapes
 -----------------
 _**MetaScapes**_ is a prototype concept that explores the idea of bringing composite geo-located NFTs minted on the XRP Ledger into a typical metaverse environment.  Through a browser based viewer these NFTs can be interactively created and visually positioned above the surface at specific locations within a metaverse scene.  Serving as an alternative to owning virtual plots of land in a metaverse, a user can create a 3d pod of any size and altitude consisting of multiple tokenized nodes (NFTs) which collectively define the shape and behavior of the pod.  Each node (token) in the 3d pod has a unique x,y,z location attribute and is a member of the composite NFT that describes the pod as a whole.
 
-What Is A Composite NFT
+What Is a Composite NFT
 -------------------------
-MetaScapes uses geo-located composite NFTs to represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it.   A composite NFT is a single NFT (representing the pod as a whole) that contains a reference to the metadata for each of the sub-NFTs that collectively define the geometry of the pod.  The idea is a master token with multiple child tokens.  With this model, the master token has the power to dictate to the entidre pod.  Composite NFTs are like an NFT ecosystem or community.
-
+_**MetaScapes**_ uses geo-located composite NFTs to visually represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it. A composite NFT can be thought of as a parent token having mulitple related child tokens.  The metadata that describes each child token is stored as metadata  in the parent token.  With this model, the parent token can represent the group of tokens as a whole (3 pod) and have control over any updates or transactions occurring on the XRP Ledger.  The composite NFTs are analogous to an NFT ecosystem or community.
 Getting Started
 ---------------
 The _**MetaScapes**_ application has been deployed on AWS as a web service available to all. No installation or configuration is required. This web service application serves as a demo and is designed to be a 'sandbox' that can be used to demonstrate the functionality of MetaScapes.
