@@ -63,7 +63,7 @@ Navigating the UI
 -----------------
 ![image info](./img/mouse-wheel.jpg)
 
-To interactively display the 3d metaverse viewer refer to the above diagram.
+To interactively maneuver the 3d metaverse viewer refer to the above diagram.
     
     ([back to top](#top))
     
