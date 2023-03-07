@@ -15,7 +15,7 @@ _**MetaScapes**_ is a prototype concept that explores the idea of bringing compo
 
 What Is a Composite NFT
 -------------------------
-_**MetaScapes**_ uses geo-located composite NFTs to visually represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it. A composite NFT can be thought of as a parent token having mulitple related child tokens.  The metadata that describes each child token is stored in the parent token.  With this model, the parent token can represent the group of tokens as a whole (3d pod) and have control over any updates or transactions occurring on the XRP Ledger.  To assure interoperability between metaverse environments, accepted metadata standards are adhered to.  Composite NFTs are analogous to an NFT ecosystem or community.
+_**MetaScapes**_ uses geo-located composite NFTs to visually represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it.  A composite NFT can be thought of as a parent token having mulitple related child tokens.  The metadata that describes each child token is stored in the parent token.  With this model, the parent token can represent the group of tokens as a whole (3d pod) and have control over any updates or transactions occurring on the XRP Ledger.  To assure interoperability between metaverse environments, accepted metadata standards are adhered to.  Composite NFTs are analogous to an NFT ecosystem or community.
 
 Getting Started
 ---------------
@@ -41,7 +41,7 @@ The project demo is built using React.js and consists of three main components i
 **Build a Pod**
    1.	Using the pod builder tools, try previewing several combinations of metaverse location and number of nodes.  Note: for this demo, three locations are predefined.       A tool for user defined addresses can easily be added.  Also, the maximum number of nodes has been set to 500.
    2.	By default, the height of any pod above the surface is set to 100 ft. and the diameter is set to 200 ft.  These parameters could be dynamic.  A pod could               actually be just a few feet across.
-   3.	The pods being created are generated randomly using an algorithm that uses the location, height, and size parameters.  Pods could also be generated from external       sources such as point cloud files or other 3d scans.
+   3.	The pods being created are generated randomly using an algorithm that uses the location, height, and size parameters.  Pods could also be generated from external       sources such as point cloud files or digital twins.
    
 **Tokenize a Pod**
    1.	Once a pod is built and previewed, it can then be tokenized into a composite NFT on the XRP Ledger.  Click the ‘Tokenize to XRPL’ button to start the process.          Note: currently there is a 150 node limit in any  pod being created.  Once a name and description are entered, the tokenization process will start.
@@ -68,6 +68,7 @@ This  project is really just a starting point for exploring the possibilities of
    o	The location of an entire pod can be moved or ownership transferred
    o	Child nodes can be added or deleted from the master pod
    o	Child nodes can be animated in real time
+   o	Digital twin data sources can become 3d pods
    o	Using hooks, composite NFTs can receive external data via oracles and emit a response
    o	Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to manage our lives.
 
