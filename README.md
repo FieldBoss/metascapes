@@ -36,7 +36,7 @@ The _**MetaScapes**_ application has been deployed on AWS as a web service avail
 How MetaScapes Works
 --------------------
 
-The application UI is divided into 3 interacting components including the navigation bar, data form, and interactive map. Following is a description of how to use the tools within each component:
+The project demo is built using React.js and consists of three main components including Mapbox 3d Viewer, XRPL.js, and Ceramic Network.  The application user is presented with a visual interface that allows them to build and view 3d pods (composite NFTs) in a metaverse environment.  The steps are as follows:
 
 1.  **Navigation Bar -** Across the top is the navigation bar which has several useful tools:
 
