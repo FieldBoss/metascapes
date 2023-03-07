@@ -11,18 +11,14 @@ Table of Contents
 
 What Is MetaScapes
 -----------------
-_**MetaScapes**_ is a mapping application that merges blockchain technology with popular open source GIS mapping tools through the use of geo-located XRPL NFTs. With FieldBoss, GIS applications are extended to include the real-time tokenization of 2d/3d unique geometries collected by field crews. By combining the analytical power of GIS (assets represented spatially) with the transparency, immutability, and security of blockchain technology we can show the spatial and temporal distribution of information which is securely stored on blockchain and distributed file systems.
+_**MetaScapes**_ is a prototype concept that explores the idea of bringing composite geo-located NFTs minted on the XRP ledger into a typical metaverse environment.  The NFTs are represented visually in a browser based viewer as 3d pods positioned above the surface of selected metaverse locations.  The pods consist of multiple tokenized points each having unique x,y,z coordinates which collectively define the three dimensional shape of the pod.  
 
 What Is A Composite NFT
 -------------------------
-
-GeoJSON is an open standard format (based on JSON format) designed for representing geographical features (geometries), along with their non-spatial attributes. The features include points, lines, polygons, and multi-part collections. A geo-located NFT contains spatial geometries stored in the XRP Ledger as GeoJSON. The data describing the NFT is stored as related metadata in a distributed file system. As a result, an NFT's location can be derived and plotted onto a map and non-spatial attributes assigned to the location.
-
-Geo-located XRPL NFTs adhere to the GeoJSON spatial data standard recognized by most GIS mapping applications which provides interoperability between FieldBoss and GIS.
+MetaScapes uses geo-located composite NFTs to represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it.   A composite NFT is a single NFT (representing the pod as a whole) that contains a reference to the metadata for each of the sub-NFTs that collectively define the geometry of the pod.  The idea is a master token with multiple child tokens.  With this model, the master token has the power to dictate to the entidre pod.  Composite NFTs are like an NFT ecosystem or community.
 
 Getting Started
 ---------------
-
 The _**MetaScapes**_ application has been deployed on AWS as a web service available to all. No installation or configuration is required. This web service application serves as a demo and is designed to be a 'sandbox' that can be used to demonstrate the functionality of MetaScapes.
 
 *   Supported Browsers:
@@ -35,7 +31,6 @@ The _**MetaScapes**_ application has been deployed on AWS as a web service avail
 
 How MetaScapes Works
 --------------------
-
 The project demo is built using React.js and consists of three main components including Mapbox 3d Viewer, XRPL.js, and Ceramic Network.  The application user is presented with a visual interface that allows them to build and view 3d pods (composite NFTs) in a metaverse environment.  The steps are as follows:
 
 **Default View**
@@ -68,7 +63,6 @@ To interactively maneuver the 3d metaverse viewer refer to the above diagram.
     
 Built With
 ----------
-
 *   [React](https://reactjs.org/) – a JavaScript library for building user interfaces
 *   [Leaflet](https://leafletjs.com/) – a popular open source JavaScript library for building web mapping applications
 *   [React Leaflet](https://react-leaflet.js.org/) - React components for Leaflet maps
@@ -79,7 +73,6 @@ Built With
 
 Roadmap
 -------
-
 *   Add integration with IoT data sources
 *   Build mobile FieldBoss application using xrpl4j Java library
 *   Develop standardized schemas and user interfaces for ease of deployment
@@ -90,7 +83,6 @@ Roadmap
 
 Contact
 -------
-
 Scott Randolph - [blocklagoon@gmail.com](mailto:blocklagoon@gmail.com)
 
 LinkedIn - [https://www.linkedin.com/in/scott-randolph-2a4948236/](https://www.linkedin.com/in/scott-randolph-2a4948236/)
