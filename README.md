@@ -65,7 +65,7 @@ Navigating the UI
 
 To interactively maneuver the 3d metaverse viewer refer to the above diagram.
     
-    ([back to top](#top))
+   ([back to top](#top))
     
 
 Built With
@@ -96,5 +96,3 @@ Contact
 Scott Randolph - [blocklagoon@gmail.com](mailto:blocklagoon@gmail.com)
 
 LinkedIn - [https://www.linkedin.com/in/scott-randolph-2a4948236/](https://www.linkedin.com/in/scott-randolph-2a4948236/)
-
-([back to top](#top))
