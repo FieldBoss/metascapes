@@ -12,7 +12,8 @@ Table of Contents
 What Is MetaScapes
 -----------------
 _**MetaScapes**_ is a prototype concept that explores the idea of bringing composite geo-located NFTs minted on the XRP Ledger into a typical metaverse environment.  Through a browser based viewer these NFTs can be interactively created and visually positioned above the surface at specific locations within a metaverse scene.  Serving as an alternative to owning virtual plots of land in a metaverse, a user can create a 3d pod of any size and altitude consisting of multiple tokenized nodes (NFTs) which collectively define the shape and behavior of the pod.  Each node (token) in the 3d pod has a unique x,y,z location attribute and is a member of the composite NFT that describes the pod as a whole.
-View the web application here: 
+
+View the web application here: https://master.dxvmqmj9eoihk.amplifyapp.com/
 
 What Is a Composite NFT
 -------------------------
