@@ -12,6 +12,7 @@ Table of Contents
 What Is MetaScapes
 -----------------
 _**MetaScapes**_ is a prototype concept that explores the idea of bringing composite geo-located NFTs minted on the XRP Ledger into a typical metaverse environment.  Through a browser based viewer these NFTs can be interactively created and visually positioned above the surface at specific locations within a metaverse scene.  Serving as an alternative to owning virtual plots of land in a metaverse, a user can create a 3d pod of any size and altitude consisting of multiple tokenized nodes (NFTs) which collectively define the shape and behavior of the pod.  Each node (token) in the 3d pod has a unique x,y,z location attribute and is a member of the composite NFT that describes the pod as a whole.
+View the web application here: 
 
 What Is a Composite NFT
 -------------------------
@@ -64,13 +65,13 @@ To interactively maneuver the 3d metaverse viewer refer to the above diagram.
 Next Steps
 -------
 This  project is really just a starting point for exploring the possibilities of composite NFTs in the metaverse.  Additional tools can be build that extend MetaScapes providing capabilities yet to be developed.  Here are some ideas:
-   o	The  location of individual child nodes can be moved or ownership can be transferred
-   o	The location of an entire pod can be moved or ownership transferred
-   o	Child nodes can be added or deleted from the master pod
-   o	Child nodes can be animated in real time
-   o	Digital twin data sources can become 3d pods
-   o	Using hooks, composite NFTs can receive external data via oracles and emit a response
-   o	Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to manage our lives.
+   *	The  location of individual child nodes can be moved or ownership can be transferred
+   *	The location of an entire pod can be moved or ownership transferred
+   *	Child nodes can be added or deleted from the master pod
+   *	Child nodes can be animated in real time
+   *	Digital twin data sources can become 3d pods
+   *	Using hooks, composite NFTs can receive external data via oracles and emit a response
+   *	Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to manage our lives.
 
 
 Built With
