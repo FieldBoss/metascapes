@@ -56,8 +56,8 @@ The project demo is built using React.js and consists of three main components i
    5.	The composite NFT (or master token) can be viewed in XRPL Explorer by clicking the button to the right of ‘Tokenized Pods on XRPL’ dropdown list.  This passes         the master tokenID to XRPL Explorer.  In Explorer, notice the URI of the NFT.  This is the link to the metadata for the master and all child tokens stored in a         Ceramic decentralized database.
 
 **View Tokenized Pods**
+   1.	To view any previously tokenized pods, select a pod name from the ‘Tokenized Pods on XRPL’ dropdown list.
 
- 
 Navigating the UI
 -----------------
 ![image info](./img/mouse-wheel.jpg)
