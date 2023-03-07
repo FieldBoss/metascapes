@@ -15,7 +15,7 @@ _**MetaScapes**_ is a prototype concept that explores the idea of bringing compo
 
 What Is a Composite NFT
 -------------------------
-_**MetaScapes**_ uses geo-located composite NFTs to visually represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it.  A composite NFT can be thought of as a parent token having mulitple related child tokens.  The metadata that describes each child token is stored as metadata  in the parent token.  With this model, the parent token can represent the group of tokens as a whole (3 pod) and have control over any updates or transactions occurring on the XRP Ledger.  The composite NFTs are analogous to an NFT ecosystem or community.
+_**MetaScapes**_ uses geo-located composite NFTs to visually represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it. A composite NFT can be thought of as a parent token having mulitple related child tokens.  The metadata that describes each child token is stored in the parent token.  With this model, the parent token can represent the group of tokens as a whole (3 pod) and have control over any updates or transactions occurring on the XRP Ledger.  To assure interoperability between metaverse environments, accepted metadata standards are adhered to.  Composite NFTs are analogous to an NFT ecosystem or community.
 
 Getting Started
 ---------------
