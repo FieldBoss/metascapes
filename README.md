@@ -58,7 +58,7 @@ The project demo is built using React.js and consists of three main components i
 **View Tokenized Pods**
    1.	To view any previously tokenized pods, select a pod name from the ‘Tokenized Pods on XRPL’ dropdown list.
    
-                                                                                                                    ([back to top](#top))
+   ([back to top](#top))
 
 Navigating the UI
 -----------------
@@ -66,9 +66,6 @@ Navigating the UI
 
 To interactively maneuver the 3d metaverse viewer refer to the above diagram.
     
-   ([back to top](#top))
-    
-
 Built With
 ----------
 
