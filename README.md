@@ -5,8 +5,8 @@ Table of Contents
 3.  [Getting Started](#getting-started)
 4.  [How MetaScapes Works](#how-metascapes-works)
 5.  [Navigating the UI](#navigating-the-ui)
-6.  [Built With](#built-with)
-7.  [Next Steps](#next-steps)
+6.  [Next Steps](#next-steps)
+7.  [Built With](#built-with)
 8.  [Contact](#contact)
 
 What Is MetaScapes
