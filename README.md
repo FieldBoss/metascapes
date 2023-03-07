@@ -42,10 +42,12 @@ The project demo is built using React.js and consists of three main components i
    1.	On loading, the user will see a blank metaverse.  Click on ‘Preview’ to display the default pod.  A pod is generated in Avatar Park & Ride having 250 nodes.  Use       the mouse controls to move and rotate the display to see its shape.
    2.	Click ‘Zone_of_Influence’ in the upper left corner.  This displays an area defined by the pod parameters (location, nodes, height, size).  All nodes in any pod         will always be contained within this area.  Click again to remove the graphic.
    3.	Zoom in a little and ‘left mouse click’ on a node in the pod.  Notice it turns yellow and a popup displays the location details of the node.
+   
 **Build a Pod**
    1.	Using the pod builder tools, try previewing several combinations of metaverse location and number of nodes.  Note: for this demo, three locations are predefined.       A tool for user defined addresses can easily be added.  Also, the maximum number of nodes has been set to 500.
    2.	By default, the height of any pod above the surface is set to 100 ft. and the diameter is set to 200 ft.  These parameters could be dynamic.  A pod could               actually be just a few feet across.
    3.	The pods being created are generated randomly using an algorithm that uses the location, height, and size parameters.  Pods could also be generated from external       sources such as point cloud files or other 3d scans.
+   
 **Tokenize a Pod**
 
 **View Tokenized Pods**
