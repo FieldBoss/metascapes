@@ -36,16 +36,6 @@ The _**MetaScapes**_ application has been deployed on AWS as a web service avail
 How MetaScapes Works
 --------------------
 
-The _**MetaScapes**_ application is designed to be an easy to use map based data collection tool that incorporates the concept of decentralized spatial data collection and storage. Built with interchangeable React Components, it can be easily tailored for most field mapping needs.
-
-Here we present a _**MetaScapes**_ use case showing how geo-located NFTs created on the XRP Ledger can be used in a field mapping application that performs and manages routine inspections of stormwater abatement structures (BMPs). Each structure on the map is represented as a point, line, or polygon feature. The geometry of these features is stored within an NFT on the XRP Ledger. New structures can be added and existing structures can be inspected. A record of all inspections (current and previous) for each feature is stored in a decentralized file system (Ceramic) and retrievable through the application's data form.
- 
-Navigating the UI
------------------
-![image info](./img/mouse-wheel.jpg)
-
-To interactively display the 3d metaverse viewer refer to the above diagram.
-
 The application UI is divided into 3 interacting components including the navigation bar, data form, and interactive map. Following is a description of how to use the tools within each component:
 
 1.  **Navigation Bar -** Across the top is the navigation bar which has several useful tools:
@@ -59,11 +49,12 @@ The application UI is divided into 3 interacting components including the naviga
 
 *   Form - The data form element displays the specific inspection details of a selected feature from the map. The form is read-only unless the user is adding a new feature or inspecting an existing one.
 *   Camera - The camera element uses the current device's built-in camera to allow the user to take a photo while performing an inspection and write the image to the decentralized database. This functionalilty is currently disabled. The images that you may see when using the application are for demonstration only.
+ 
+Navigating the UI
+-----------------
+![image info](./img/mouse-wheel.jpg)
 
-5.  **Interactive Map -** User will use the map interface to create new features (geometries) and/or select existing features to be inspected.
-    
-    *   Create Feature - To create a new feature click on the 'Add BMP' button on the form. The form will be pre-populated with the new BMP-id and the current date. Fill out the form with the conditions pertaining to the feature (BMP structure) that you are adding. Next, add the geometry to the map by selecting a geometry type from the toolbar on the left (point, line, or polygon). Click on the map to create the geometry. Next, click the 'Submit' button on the form. A progress indicator will popup and when completed the display will refresh showing the new feature on the map. A new geo-located XRPL NFT has been created and its related information from the form has been added to the distributed file system (Ceramic).
-    *   Select Feature - Existing features seen on the map can be selected with a mouse click which activates a popup window. The popup window shows a list of past inspections on that feature with the most recent at the top. The 'Select' button will highlight that feature on the map and populate the data form with details of the most recent inspection. Once a feature is selected, a new inspection can be performed by clicking on the 'Inspect BMP' button which will allow the user to add current inspection details regarding the selected feature. Click the 'Submit' button to commit the inspection to the decentralized database (Ceramic). Also in the popup window is a link to the XRPL explorer which will show ledger details of the feature (geo-located NFT).
+To interactively display the 3d metaverse viewer refer to the above diagram.
     
     ([back to top](#top))
     
