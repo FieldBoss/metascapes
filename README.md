@@ -38,17 +38,14 @@ How MetaScapes Works
 
 The project demo is built using React.js and consists of three main components including Mapbox 3d Viewer, XRPL.js, and Ceramic Network.  The application user is presented with a visual interface that allows them to build and view 3d pods (composite NFTs) in a metaverse environment.  The steps are as follows:
 
-1.  **Navigation Bar -** Across the top is the navigation bar which has several useful tools:
+**Default View**
 
-*   Download GeoJSON - User can download all data from XRP Ledger and Ceramic for the current account into GeoJSON format which can be easily imported into desktop GIS applications
-*   User Guide - Background and instructions for the FieldBoss application
-*   Location - User can paste lat/long coordinates into the box to zoom map to that location or click the location button to zoom the map to the user's current location.
-*   Login - Currently disabled
+**Build a Pod**
 
-3.  **Data Form -** On the right side of the display, the data form allows the user to interact with the attribute data specific to the features shown on the map.
+**Tokenize a Pod**
 
-*   Form - The data form element displays the specific inspection details of a selected feature from the map. The form is read-only unless the user is adding a new feature or inspecting an existing one.
-*   Camera - The camera element uses the current device's built-in camera to allow the user to take a photo while performing an inspection and write the image to the decentralized database. This functionalilty is currently disabled. The images that you may see when using the application are for demonstration only.
+**View Tokenized Pods**
+
  
 Navigating the UI
 -----------------
