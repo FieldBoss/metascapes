@@ -49,6 +49,11 @@ The project demo is built using React.js and consists of three main components i
    3.	The pods being created are generated randomly using an algorithm that uses the location, height, and size parameters.  Pods could also be generated from external       sources such as point cloud files or other 3d scans.
    
 **Tokenize a Pod**
+   1.	Once a pod is built and previewed, it can then be tokenized into a composite NFT on the XRP Ledger.  Click the ‘Tokenize to XRPL’ button to start the process.          Note: currently there is a 150 node limit in any  pod being created.  Once a name and description are entered, the tokenization process will start.
+   2.	Note the progress indicator which displays the number of tokenized nodes in the pod.
+   3.	Upon completion, the newly minted composite NFT pod can be viewed by selecting its name in the ‘Tokenized Pods on XRPL’ dropdown list.  The pod will be green.
+   4.	Each node (child token) in the pod is now an NFT on the XRP Ledger.  Zoom in a little and ‘left mouse click’ on a token in the pod.  Notice it turns yellow and a       popup displays the metadata of the child token and references the pod name (master token).  There is a link to the child tokenID in XRPL Explorer.
+   5.	The composite NFT (or master token) can be viewed in XRPL Explorer by clicking the button to the right of ‘Tokenized Pods on XRPL’ dropdown list.  This passes         the master tokenID to XRPL Explorer.  In Explorer, notice the URI of the NFT.  This is the link to the metadata for the master and all child tokens stored in a         Ceramic decentralized database.
 
 **View Tokenized Pods**
 
