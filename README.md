@@ -63,11 +63,15 @@ To interactively maneuver the 3d metaverse viewer refer to the above diagram.
  
 Next Steps
 -------
-*   Add integration with IoT data sources
-*   Build mobile FieldBoss application using xrpl4j Java library
-*   Develop standardized schemas and user interfaces for ease of deployment
-*   Add integration with 3d scanned 'point clouds' and other big data
-*   
+This  project is really just a starting point for exploring the possibilities of composite NFTs in the metaverse.  Additional tools can be build that extend MetaScapes providing capabilities yet to be developed.  Here are some ideas:
+o	The  location of individual child nodes can be moved or ownership can be transferred
+o	The location of an entire pod can be moved or ownership transferred
+o	Child nodes can be added or deleted from the master pod
+o	Child nodes can be animated in real time
+o	Using hooks, composite NFTs can receive external data via oracles and emit a response
+o	Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to manage our lives.
+
+
 Built With
 ----------
 *   [React](https://reactjs.org/) – JavaScript library for building user interfaces
