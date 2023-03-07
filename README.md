@@ -6,7 +6,7 @@ Table of Contents
 4.  [How MetaScapes Works](#how-metascapes-works)
 5.  [Navigating the UI](#navigating-the-ui)
 6.  [Built With](#built-with)
-7.  [Roadmap](#roadmap)
+7.  [Next Steps](#next-steps)
 8.  [Contact](#contact)
 
 What Is MetaScapes
@@ -60,7 +60,14 @@ Navigating the UI
 ![image info](./img/mouse-wheel.jpg)
 
 To interactively maneuver the 3d metaverse viewer refer to the above diagram.
-    
+ 
+Next Steps
+-------
+*   Add integration with IoT data sources
+*   Build mobile FieldBoss application using xrpl4j Java library
+*   Develop standardized schemas and user interfaces for ease of deployment
+*   Add integration with 3d scanned 'point clouds' and other big data
+*   
 Built With
 ----------
 *   [React](https://reactjs.org/) – a JavaScript library for building user interfaces
@@ -70,16 +77,8 @@ Built With
 *   XRP Ledger([https://testnet.xrpl.org](https://testnet.xrpl.org/) - Testnet Data)
 *   [Ceramic](https://ceramic.network/) - a decentralized data network for Web3 applications
 *   [Node.js](https://nodejs.org/en/) - a cross-platform JavaScript runtime environment
-
-Roadmap
--------
-*   Add integration with IoT data sources
-*   Build mobile FieldBoss application using xrpl4j Java library
-*   Develop standardized schemas and user interfaces for ease of deployment
-*   Add integration with 3d scanned 'point clouds' and other big data
     
     ([back to top](#top))
-    
 
 Contact
 -------
