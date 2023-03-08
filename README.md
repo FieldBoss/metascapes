@@ -54,8 +54,6 @@ The project demo is built using React.js and consists of three main components i
 
 **View Tokenized Pods**
    1.	To view any previously tokenized pods, select a pod name from the ‘Tokenized Pods on XRPL’ dropdown list.
-   
-   ([back to top](#top))
 
 Navigating the UI
 -----------------
@@ -65,7 +63,7 @@ To interactively maneuver the 3d metaverse viewer refer to the above diagram.
  
 Next Steps
 -------
-This  project is really just a starting point for exploring the possibilities of composite NFTs in the metaverse.  Additional tools can be build that extend MetaScapes providing capabilities yet to be developed.  Here are some ideas:
+This  project is really just a starting point for exploring the possibilities of composite NFTs in the metaverse.  Additional tools can be built that extend MetaScapes providing capabilities yet to be developed.  Here are some ideas:
    *	The  location of individual child nodes can be moved or ownership can be transferred
    *	The location of an entire pod can be moved or ownership transferred
    *	Child nodes can be added or deleted from the master pod
@@ -83,8 +81,6 @@ Built With
 *   XRP Ledger([https://testnet.xrpl.org](https://testnet.xrpl.org/) - testnet)
 *   [Ceramic Network](https://ceramic.network/ :ceramic-clay testnet) - a decentralized data network for Web3 applications
 *   [Node.js](https://nodejs.org/en/) - a cross-platform JavaScript runtime environment
-    
-    ([back to top](#top))
 
 Contact
 -------
