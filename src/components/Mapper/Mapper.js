@@ -66,7 +66,7 @@ const Mapper = (props) => {
     async function loadSphere(){ 
         let a = document.getElementById("childcount").value;
         if (a > 500 || a < 1){
-            alert('Allowable nodes is 1 to 500');
+            alert('Allowable nodes is 2 to 500');
             return;
         }
 
@@ -438,7 +438,7 @@ return (
             <option value="Events Center">Events Center</option>
         </select>
         <label style={{ position: "relative", top: "8px", width: "250px", right: "82px", zIndex: "4", fontSize: "13px", fontWeight: "500"}}>Number of Nodes</label>
-        <input type="number" id="childcount" onChange={changeSpec} defaultValue="250" min="1" max="500"autocomplete="off"></input>
+        <input type="number" id="childcount" onChange={changeSpec} defaultValue="250" min="2" max="500"autoComplete="off"></input>
         <label style={{ position: "relative", top: "10px", width: "250px", right: "58px", zIndex: "4", fontSize: "13px", fontWeight: "500"}}>Height Above Surface (ft.)</label>
         <input type="text" id="height" defaultValue="100  (default)" disabled></input>
         <label style={{ position: "relative", top: "10px", width: "250px", right: "74px", zIndex: "4", fontSize: "13px", fontWeight: "500"}}>Size (diameter in ft.)</label>

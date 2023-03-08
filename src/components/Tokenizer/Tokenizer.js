@@ -177,11 +177,6 @@ const Tokenizer = (props) => {
         event.stopPropagation();
         event.preventDefault();
 
-        if (document.getElementById("childcount").value > 150){
-            alert("Currently the maximum allowable nodes is 150");
-            return;
-        }
-
         let isExecuted = window.confirm("Do you want to tokenize the PREVIEWED pod?\nNote: 10 or more nodes can take several minutes to complete");
         if (isExecuted === true){
             if (document.getElementById("podname").value === "" || document.getElementById("description").value === ""){
@@ -295,9 +290,9 @@ const Tokenizer = (props) => {
         <div>
             <label style={{ position: "relative", top: "0px", width: "150px", right: "5px", zIndex: "4", fontSize: "16px", fontWeight: "bold"}}>Tokenize a Pod</label>
             <label style={{ position: "relative", top: "-1px", width: "250px", right: "50px", zIndex: "4", fontSize: "13px", fontWeight: "500"}}>Give the Pod a Unique Name</label>
-            <input type="text" id="podname" autocomplete="off" disabled></input>
+            <input type="text" id="podname" autoComplete="off" disabled></input>
             <label style={{ position: "relative", top: "0px", width: "250px", right: "59px", zIndex: "4", fontSize: "13px", fontWeight: "500"}}>Describe the Pod (10 wds.)</label>
-            <input type="text" id="description" autocomplete="off" disabled></input>
+            <input type="text" id="description" autoComplete="off" disabled></input>
             <button type="submit" id="submit" disabled>Tokenize to XRPL</button>
         </div>
         <div>
