@@ -64,13 +64,13 @@ To interactively maneuver the 3d metaverse viewer refer to the above diagram.
 Next Steps
 -------
 This  project is really just a starting point for exploring the possibilities of composite NFTs in the metaverse.  Additional tools can be built that extend MetaScapes providing capabilities yet to be developed.  Here are some ideas:
-   *	The  location of individual child nodes can be moved or ownership can be transferred
+   *	The  location of individual child tokens can be moved or ownership can be transferred
    *	The location of an entire pod can be moved or ownership transferred
-   *	Child nodes can be added or deleted from the master pod
-   *	Child nodes can be animated in real time
+   *	Child tokens can be added or deleted from the master pod
+   *	Child tokens can be animated in real time
    *	Digital twin data sources can become 3d pods
    *	Using hooks, composite NFTs can receive external data via oracles and emit a response
-   *	Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to manage our lives.
+   *	Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to use the metaverse.
 
 
 Built With
