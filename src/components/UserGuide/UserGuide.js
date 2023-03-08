@@ -26,11 +26,11 @@ const UserGuide = (props) => {
 <li><a href="#built-with">Built With</a></li>
 <li><a href="#contact">Contact</a></li>
 </ol>
-<h3 id="what-is-metascapes">What Is MetaScapes</h3>
+<h4 id="what-is-metascapes">What Is MetaScapes</h4>
 <p><em><strong>MetaScapes</strong></em> is a prototype concept that explores the idea of bringing composite geo-located NFTs minted on the XRP Ledger into a typical metaverse environment.  Through a browser based viewer these NFTs can be interactively created and visually positioned above the surface at specific locations within a metaverse scene.  Serving as an alternative to owning virtual plots of land in a metaverse, a user can create a 3d pod of any size and altitude consisting of multiple tokenized nodes (NFTs) which collectively define the shape and behavior of the pod.  Each node (token) in the 3d pod has a unique x,y,z location attribute and is a member of the composite NFT that describes the pod as a whole.</p>
-<h3 id="what-is-a-composite-nft">What Is a Composite NFT</h3>
+<h4 id="what-is-a-composite-nft">What Is a Composite NFT</h4>
 <p><em><strong>MetaScapes</strong></em> uses geo-located composite NFTs to visually represent three dimensional shapes (pods) in the metaverse. Being geo-located simply means that each NFT has location geometry associated with it.  A composite NFT can be thought of as a parent token having mulitple related child tokens.  The metadata that describes each child token is stored in the parent token.  With this model, the parent token can represent the group of tokens as a whole (3d pod) and have control over any updates or transactions occurring on the XRP Ledger.  To assure interoperability between metaverse environments, accepted metadata standards are adhered to.  Composite NFTs are analogous to an NFT ecosystem or community.</p>
-<h3 id="getting-started">Getting Started</h3>
+<h4 id="getting-started">Getting Started</h4>
 <p>The <em><strong>MetaScapes</strong></em> application has been deployed on AWS as a web service available to all. No installation or configuration is required. This web service application serves as a demo and is designed to be a &#39;sandbox&#39; that can be used to demonstrate the functionality of MetaScapes.</p>
 <ul>
 <li>Supported Browsers:<ul>
@@ -42,7 +42,7 @@ const UserGuide = (props) => {
 </ul>
 </li>
 </ul>
-<h3 id="how-metascapes-works">How MetaScapes Works</h3>
+<h4 id="how-metascapes-works">How MetaScapes Works</h4>
 <p>The project demo is built using React.js and consists of three main components including Mapbox 3d Viewer, XRPL.js, and Ceramic Network.  The application user is presented with a visual interface that allows them to build and view 3d pods (composite NFTs on XRPL testnet) in a metaverse environment.  The steps are as follows:</p>
 <p><strong>Default View</strong></p>
 <ol>
@@ -81,27 +81,27 @@ const UserGuide = (props) => {
 <li><p>To view any previously tokenized pods, select a pod name from the ‘Tokenized Pods on XRPL’ dropdown list.</p>
 </li>
 </ol>
-<h3 id="navigating-the-ui">Navigating the UI</h3>
+<h4 id="navigating-the-ui">Navigating the UI</h4>
 <img src="mouse-wheel.jpg" alt="mouse"/>
-<h3 id="next-steps">Next Steps</h3>
-<p>This  project is really just a starting point for exploring the possibilities of composite NFTs in the metaverse.  Additional tools can be build that extend MetaScapes providing capabilities yet to be developed.  Here are some ideas:</p>
+<h4 id="next-steps">Next Steps</h4>
+<p>This  project is really just a starting point for exploring the possibilities of composite NFTs in the metaverse.  Additional tools can be built that extend MetaScapes providing capabilities yet to be developed.  Here are some ideas:</p>
 <ul>
-<li><p>The  location of individual child nodes can be moved or ownership can be transferred</p>
+<li><p>The  location of individual child tokens can be moved or ownership can be transferred</p>
 </li>
 <li><p>The location of an entire pod can be moved or ownership transferred</p>
 </li>
-<li><p>Child nodes can be added or deleted from the master pod</p>
+<li><p>Child tokens can be added or deleted from the master pod</p>
 </li>
-<li><p>Child nodes can be animated in real time</p>
+<li><p>Child tokens can be animated in real time</p>
 </li>
 <li><p>Digital twin data sources can become 3d pods</p>
 </li>
 <li><p>Using hooks, composite NFTs can receive external data via oracles and emit a response</p>
 </li>
-<li><p>Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to manage our lives</p>
+<li><p>Composite NFT pods can be created at a micro scale which when combined with AI could provide new ways to use the metaverse</p>
 </li>
 </ul>
-<h3 id="built-with">Built With</h3>
+<h4 id="built-with">Built With</h4>
 <ul>
 <li><p><a href="https://reactjs.org/">React</a> – JavaScript library for building user interfaces</p>
 </li>
@@ -116,7 +116,7 @@ const UserGuide = (props) => {
 <li><p><a href="https://nodejs.org/en/">Node.js</a> - a cross-platform JavaScript runtime environment</p>
 </li>
 </ul>
-<h3 id="contact">Contact</h3>
+<h4 id="contact">Contact</h4>
 <p>Scott Randolph - <a href="mailto:blocklagoon@gmail.com">blocklagoon@gmail.com</a></p>
 <p>LinkedIn - <a href="https://www.linkedin.com/in/scott-randolph-2a4948236/">https://www.linkedin.com/in/scott-randolph-2a4948236/</a></p>
       </Modal.Body>
