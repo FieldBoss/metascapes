@@ -1,9 +1,9 @@
 const aliases2 = {
     schemas: {
-        PointGeometrySchema: 'ceramic://k3y52l7qbv1frym0phywgq1dxwu3dbse49xmoiiqtrhv8o7fxofpx4f83cq575zpc',
+        PointGeometrySchema: 'ceramic://k3y52l7qbv1fryb9hlkcs23dm8q8y2l4y3qofzo86f34pw9xnw9xude77zggzroqo',
     },
     definitions: {
-        PointGeometryDefinition: 'kjzl6cwe1jw14794pn8lb41crelanqvzcjwo37w8xb6w5tq1e9kpdqmhn6s0qfg',
+        PointGeometryDefinition: 'kjzl6cwe1jw146j11thdboivzntcu587enke1ugmok9kd94x7ifx0ca4gs0wzjy',
     },
     tiles: {}, 
 }
