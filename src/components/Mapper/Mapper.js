@@ -79,7 +79,7 @@ const Mapper = (props) => {
             loadOblique('red', 'Preview Pod', result[0], result[1], result[2], result[3], centerArray);
         })
        
-        //set controls
+        //set controls on form
         document.getElementById("submit").disabled = false;
         document.getElementById("podname").disabled = false;
         document.getElementById("description").disabled = false;
